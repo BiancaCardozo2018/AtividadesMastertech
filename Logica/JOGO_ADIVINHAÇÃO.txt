@@ -1,0 +1,34 @@
+-----ATIVIDADE PROPOSTA---------------------------------------------------------------------------------------------------------------------------------
+Adivinhe o número que eu estou pensando. É o número entre 1 e 2000.
+Você pode perguntar o número, e eu vou responder de três formas diferentes:
+- CORRETO -> (Acertou)
+- MAIOR -> (se você falou um número muito pequeno)
+- MENOR -> (se você falou um número muito grande)
+
+*RESPOSTA 1*
+Lembrar que o menor possível é 1.
+Lembrar que o maior possível é 2000.
+
+ENQUANTO (palpite estiver errado) REPETIR: 
+Lembrar que o PALPITE agora é o maior número do intervalo, MENOS o menor número do intervalo,MAIS um, 
+DIVIDIDO por dois, arredondado para cima e então somado no menor número do intervalo.
+(O de cima pode ser substituido por:
+Lembrar que o PALPITE agora é o maior número do intervalo MAIS o menor número do intervalo, 
+dividido por dois e arredondado para baixo)
+Perguntar se o palpite está correto.
+SE (resposta for ´maior`):
+Lembrar que o menor número agora é o PALPITE.
+SENÃO
+Lembrar que o maior número agora é o PALPITE.
+
+
+*RESPOSTA 2*
+Lembrar que palpite é 1000.
+Perguntar se o palpite está correto.
+
+ENQUANTO (palpite errado) REPETIR:
+SE (resposta for ´maior´):
+Lembrar que o PALPITE é PALPITE * 1,5
+SENÃO
+Lembrar que o PALPITE é PALPITE / 2
+Perguntar se o palpite está correto

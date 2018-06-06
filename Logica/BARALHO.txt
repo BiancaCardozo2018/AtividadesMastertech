@@ -1,0 +1,38 @@
+-----ATIVIDADE PROPOSTA---------------------------------------------------------------------------------------------------------------------------
+Fazer um código onde há um baralho de cartas embaralhadas, ao qual não sabemos a quantidade de cartas. 
+A carta que deve ser encontrada é o 3 de copas. Se for encontrado informar ENCONTROU,se não encontrar, informar.
+
+*RESPOSTA*
+ENQUANTO (houver cartas sobre a mesa) REPETIR:
+Pegar a próxima cartas
+SE (Número for igual a 3) E (Desenho for igual a coração vermelho)
+Responder ENCONTROU
+Parar
+SENÃO
+Descartar a carta
+Continuar
+Responder NÃO ENCONTROU.
+
+-----LIÇÃO DE CASA-----------------------------------------------------------------------------------------------------------------
+Lista NIPE:
+- COPAS -> coração vermelho 
+- OUROS -> diamente vermelho
+- ESPADAS -> coração preto com um pequeno triângulo
+- PAUS -> trevo preto com um pequeno triângulo
+
+Perguntar e lembrar qual é o SÍMBOLO.
+Perguntar e lembrar qual é o NIPE.
+
+Colocar o baralho sobre a mesa.
+
+*RESPOSTA*
+ENQUANTO (houver cartas) REPETIR:
+Pegar a próxima cartas
+SE (Símbolo for o SÍMBOLO) E (Desenhor for a descrição do NIPE)
+Responder ENCONTROU
+Parar
+SENÃO
+Descartar a carta
+Continuar
+Responder NÃO ENCONTROU.
+
